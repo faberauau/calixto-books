@@ -1,117 +1,63 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Online</title>
+    <link rel="stylesheet" href="style.css">
 
-.book-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    
+</head>
+</body>
+r-radius: 50%;
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Livraria Virtual</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar livros...">
+                <button type="submit">Buscar</button>
+            </div>
+            <div class="profile-icon">
+                <img src="seu_icone_de_perfil.png" alt="Perfil">
+            </div>
+        </nav>
 
-.book {
-    width: 200px;
-    margin: 10px;
-    background-color: white;
-    border: 1px solid #ddd;
-    box-shadow: 0 0 5px #aaa;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-}
+    <div class="book-container">
+        <div class="book">
+            <img src="download.jpeg" alt="Livro 1">
+            <h2>Livro 1</h2>
+            <p>Descrição do Livro 1.</p>
+        </div>
+        <div class="book">
+            <img src="downloadcaca.jpeg" alt="Livro 2">
+            <h2>Livro 2</h2>
+            <p>Descrição do Livro 2.</p>
+        </div>
+        <div class="book">
+            <img src="livro1.jpeg.jpeg" alt="Livro 2">
+            <h2>Livro 2</h2>
+            <p>Descrição do Livro 2.</p>
+    </div>
+    <div class="book">
+        <img src="s.jpeg" alt="Livro 2">
+        <h2>Livro 2</h2>
+        <p>Descrição do Livro 2.</p>
+    </div>
+    <div class="book">
+        <img src="sa.jpeg" alt="Livro 2">
+        <h2>Livro 2</h2>
+        <p>Descrição do Livro 2.</p>
+    </div>
 
-.book img {
-    width: 100%;
-    max-height: 300px;
-}
 
-header {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px;
-}
+<body>
+</body>
+</html>
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo h1 {
-    margin: 0;
-}
-
-.search-bar {
-    background-color: #fff;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-}
-
-.search-bar input {
-    border: none;
-    padding: 5px;
-}
-
-.search-bar button {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 0 3px 3px 0;
-    cursor: pointer;
-}
-
-.profile-icon img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-header {
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo h1 {
-    margin: 0;
-}
-
-.search-bar {
-    background-color: #fff;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-}
-
-.search-bar input {
-    border: none;
-    padding: 5px;
-}
-
-.search-bar button {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 0 3px 3px 0;
-    cursor: pointer;
-}
-
-.profile-icon img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
